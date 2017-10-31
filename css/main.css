@@ -56,3 +56,71 @@ header div{
 .form p{
 
  }
+
+ /*RESETEANDO*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+ /*CLASE REUTLIZABLE DE ONE SECTION*/
+ .inline-block{
+   display: inline-block;
+ }
+
+ .pharagrap{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   font-weight: lighter;
+   font-size: 90%;
+ }
+
+ /*ESTILOS DE ONE SECTION*/
+
+ .one-section{
+   width: 100%;
+ }
+
+ .container-one-section{
+   background: linear-gradient(#76278f,#2b1e66);
+ }
+
+.container-fluid{
+  margin-left: 12%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.column-left{
+  width: 43%;
+  color: #fff;
+  letter-spacing: 1.5px;
+}
+
+.one-text, .two-text, .three-text{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.one-text h1, .two-text h1, .three-text h1{
+  font-size: 160%;
+}
+
+div.imagen-one-section{
+  display: inline-block;
+  width: 40%;
+}
+
+.imagen-one-section img{
+  width: 120%;
+}
